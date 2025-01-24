@@ -3,7 +3,7 @@ import Heading from "./Heading";
 import PricingList from "./PricingList";
 import Section from "./Section";
 import { LeftLine, RightLine } from "./design/Pricing";
-const pricing = () => {
+const Pricing = () => {
   return (
     <Section className="overflow-hidden" id="pricing">
       <div className="container relative z-2">
@@ -47,4 +47,4 @@ const pricing = () => {
   );
 };
 
-export default pricing;
+export default Pricing;
